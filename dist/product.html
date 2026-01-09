@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<title>Товар</title>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<!-- Header -->
+<header class="header" id="header">
+	<div class="container">
+		<div class="headerW">
+			<div class="hamburger" id="toggle">
+				<div class="top-bun"></div>
+				<div class="meat"></div>
+				<div class="bottom-bun"></div>
+			</div><!-- /Hamburger Menu -->
+			<a href="#" class="headerLogo logo">
+				<img src="img/admin/logo/logo.svg" alt="logo">
+			</a>
+			<nav class="headerNav nav">
+				<div class="headerNavW">
+					<div class="searchW searchW--sm">
+						<input type="search" placeholder="SEARCH...">
+					</div>
+					<ul>
+						<li><a href="#">NEW ARRIVALS</a></li>
+						<li class="submenu-1">
+							<a href="#">COLLECTIONS</a>
+						</li>
+						<li><a href="#">PRODUCT CATEGORY 1</a></li>
+						<li><a href="#">PRODUCT CATEGORY 2</a></li>
+						<li><a href="#">PRODUCT CATEGORY 3</a></li>
+					</ul>
+					<div class="headerMobileMenuW">
+						<div class="headerMobileMenu">
+							<ul>
+								<li>
+									<a href="#">ACCOUNT</a>
+								</li>
+								<li>
+									<a href="#">FAVORITES</a>
+								</li>
+								<li>
+									<a href="#">CONTACTS</a>
+								</li>
+								<li>
+									<a href="#">ABOUT US</a>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="headerMobileSwitchLang">
+							<img src="img/icons/lang-black.svg" alt="icon">
+							<div class="headerMobileSwitchLangText">
+								<span>Russian</span>
+							</div>
+						</a>
+					</div>
+
+				</div>
+
+			</nav>
+			<div class="headerAction">
+				<ul>
+					<li>
+						<a class="headerSearchBtn" href="#">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#search"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#user"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="wishlist-menu">
+						<a href="#">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#heart"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="headerCart">
+						<a href="#">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#cart"></use>
+							</svg>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="header-submenu submenu-1">
+		<div class="container">
+			<button class="header-submenu-back">
+				<img src="img/icons/arrow-prev.svg" alt="icon">
+				<span>Back</span>
+			</button>
+			<ul>
+				<li><a href="#">COLLECTION NAME 1</a></li>
+				<li><a href="#">COLLECTION NAME 2</a></li>
+				<li><a href="#">COLLECTION NAME 3</a></li>
+				<li><a href="#">COLLECTION NAME 4</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header-submenu header-search">
+		<div class="container">
+			<div class="searchW">
+				<input type="search" placeholder="SEARCH...">
+			</div>
+		</div>
+	</div>
+
+</header>
+		<main class="main">		
+			<section class="sect productSect">
+	<div class="container">
+		<div class="productW">
+
+			<div class="productSliderW">
+				<div class="swiper productSlider">
+					<div class="swiper-wrapper">
+
+						<a href="img/admin/shop/image-1.png" data-fancybox="product-image" class="swiper-slide productSlide">
+							<img src="img/admin/shop/image-1.png" alt="image">
+						</a>
+						<a href="img/admin/shop/image-2.png" data-fancybox="product-image" class="swiper-slide productSlide">
+							<img src="img/admin/shop/image-2.png" alt="image">
+						</a>
+						<a href="img/admin/shop/image-1.png" data-fancybox="product-image" class="swiper-slide productSlide">
+							<img src="img/admin/shop/image-1.png" alt="image">
+						</a>
+						<a href="img/admin/shop/image-2.png" data-fancybox="product-image" class="swiper-slide productSlide">
+							<img src="img/admin/shop/image-2.png" alt="image">
+						</a>
+
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="swiper productThumbSlider">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide productThumbSlide">
+							<img src="img/admin/shop/image-1.png" alt="image">
+						</div>
+						<div class="swiper-slide productThumbSlide">
+							<img src="img/admin/shop/image-2.png" alt="image">
+						</div>
+							<div class="swiper-slide productThumbSlide">
+							<img src="img/admin/shop/image-1.png" alt="image">
+						</div>
+						<div class="swiper-slide productThumbSlide">
+							<img src="img/admin/shop/image-2.png" alt="image">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="productMain">
+				<div class="productTitleW">
+					<h1 class="productTitle">
+						Product Name
+					</h1>
+					<button class="productAddToWishlist active"></button>
+				</div>
+
+				<div class="productPrice">
+					19 990₽
+				</div>
+				<div class="productDescr content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+						ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum
+					</p>
+				</div>
+				<div class="productVariations">
+					<div class="productVariation">
+						<div class="h1 productVariationName">
+							Choosing the size
+						</div>
+						<ul>
+							<li>
+								<input id="var_1" type="radio" name="var_1_name" checked>
+								<label for="var_1">XS</label>
+							</li>
+							<li>
+								<input id="var_2" type="radio" name="var_1_name">
+								<label for="var_2">S</label>
+							</li>
+							<li>
+								<input id="var_3" type="radio" name="var_1_name">
+								<label for="var_3">M</label>
+							</li>
+							<li>
+								<input id="var_4" type="radio" name="var_1_name">
+								<label for="var_4">L</label>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<button class="button button--black productAddToCard" data-fancybox data-src="#modalAdded">
+					ADD TO CART
+				</button>
+			</div>
+
+		</div>
+	</div>
+</section>
+			<section class="sect sliderW pt-0">
+  <div class="container">
+
+    <div class="productSliderHead">
+      <h2 class="h1">
+        Other colors
+      </h2>
+      <div class="navArrowW">
+        <button class="navArrowPrev narArrow">
+          <img src="img/icons/arrow-prev.svg" alt="icon">
+        </button>
+        <button class="navArrowNext narArrow">
+          <img src="img/icons/arrow-next.svg" alt="icon">
+        </button>
+      </div>
+    </div>
+
+    <div class="swiper productRelated">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+			<section class="sect sliderW pt-0">
+  <div class="container">
+
+    <div class="productSliderHead">
+      <h2 class="h1">
+        Recommendations
+      </h2>
+      <div class="navArrowW">
+        <button class="navArrowPrev narArrow">
+          <img src="img/icons/arrow-prev.svg" alt="icon">
+        </button>
+        <button class="navArrowNext narArrow">
+          <img src="img/icons/arrow-next.svg" alt="icon">
+        </button>
+      </div>
+    </div>
+
+    <div class="swiper productRelated">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+			<section class="sect sliderW pt-0">
+  <div class="container">
+
+    <div class="productSliderHead">
+      <h2 class="h1">
+        Have you watched
+      </h2>
+      <div class="navArrowW">
+        <button class="navArrowPrev narArrow">
+          <img src="img/icons/arrow-prev.svg" alt="icon">
+        </button>
+        <button class="navArrowNext narArrow">
+          <img src="img/icons/arrow-next.svg" alt="icon">
+        </button>
+      </div>
+    </div>
+
+    <div class="swiper productRelated">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn active"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-3.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                5 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="catalogCard">
+            <div class="catalogCardT">
+              <div class="swiper catalogCardSlider">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-1.png" alt="image">
+                  </div>
+                  <div class="swiper-slide catalogCardSlide">
+                    <img src="img/admin/shop/image-2.png" alt="image">
+                  </div>
+
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+
+            <a href="#" class="catalogCardWishlistBtn"></a>
+
+            <div class="catalogCardContent">
+              <h3 class="h3">
+                <a href="#">Name of product</a>
+              </h3>
+              <div class="catalogCardPrice">
+                19 990₽
+              </div>
+            </div>
+            <a href="#" class="productCardLink"></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+		</main>
+		<!-- Footer -->
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="footerW">
+
+			<div class="footerLogoW footerLogoW--lg">
+				<a href="#" class="footerLogo logo">
+					<img src="img/admin/logo/logo-light.svg" alt="logo">
+				</a>
+				<a href="#" class="footerLangSwitch">
+					<img src="img/icons/lang.svg" alt="icon">
+					<div class="footerLangSwitchText">
+						Change the Language to <span>Russian</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="footerNavW">
+				<nav class="footerNav nav">
+					<ul>
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Delivery</a></li>
+						<li><a href="#">Return</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</nav>
+				<nav class="footerNav footerNav-border-b nav">
+					<ul>
+						<li><a href="#">Personal Data Processing Policy</a></li>
+						<li><a href="#">Consent to processing</a></li>
+						<li><a href="#">Rules for distance selling</a></li>
+						<li><a href="#">Legal information about the company</a></li>
+					</ul>
+					<div class="info-yur">
+						ИП Иванов Иван Иванович, ИНН 123456789, ОГРНИП 12345678
+					</div>
+				</nav>
+			</div>
+
+			<div class="footerLogoW footerLogoW--sm">
+				<a href="#" class="footerLogo logo">
+					<img src="img/admin/logo/logo-light.svg" alt="logo">
+				</a>
+				<a href="#" class="footerLangSwitch">
+					<img src="img/icons/lang.svg" alt="icon">
+					<div class="footerLangSwitchText">
+						Change the Language to <span>Russian</span>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</footer>
+		<!-- modal -->
+<!-- added -->
+<div class="modal" id="modalAdded">
+  <div class="productAdded">
+
+    <div class="productAddedHead">
+      <div class="productAddedTitle">
+        ADDED TO CART
+      </div>
+      <button class="productAddedClose" data-fancybox-close>
+        <img src="img/icons/close.svg" alt="close">
+      </button>
+    </div>
+
+    <div class="productAddedItem">
+      <a href="#" class="productAddedItemImg">
+        <img src="img/admin/shop/image-1.png" alt="image">
+      </a>
+      <div class="productAddedItemContent">
+        <div class="productAddedItemContentTop">
+          <div class="productAddedItemName">Product name 1</div>
+          <div class="productAddedItemPrice">19 990₽</div>
+          <div class="productAddedItemSize color--brown-light">
+            Size: XS
+          </div>
+        </div>
+        <div class="productAddedItemContentBottom">
+          <div class="productAddedItemQuantityNum color--brown-light">
+            Quantity: 1
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="button button--md button--brown-light w-100 modalAddedCartBtn">PLACE AN ORDER</a>
+    <button class="button button--md button--transparent-brown-light mb-18 w-100" data-fancybox-close>CONTINUE
+      SHOPPING</button>
+
+  </div>
+
+</div>
+	</div>
+	
+	<script src="js/app.min.js"></script>
+
+
+	
+</body>
+
+</html>
+
+
+
+

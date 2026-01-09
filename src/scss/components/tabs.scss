@@ -1,0 +1,33 @@
+.tabs {
+  &__nav {
+    display: flex;
+    column-gap: 48px;
+    width: fit-content;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+    &-btn {
+      font-size: 12px;
+      padding-bottom: 7px;
+      color: #8F8F8C;
+      border-bottom: 1px solid transparent;
+      transition: color .2s linear;
+      &:hover {
+        color: var(--main-color);
+      }
+
+      &--active {
+        border-color: #20201A;
+        color: #20201A;
+      }
+    }
+  }
+
+  &__panel {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+}

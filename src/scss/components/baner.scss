@@ -1,0 +1,64 @@
+.baner {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: rgba($color: #000000, $alpha: .1);
+		@media(max-width: 767px){
+			background-color: rgba($color: #000000, $alpha: .2);
+		}
+	}
+
+	.introVideo {
+		width: 100%;
+		object-fit: cover;
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+
+		@media(max-width: 991px) {
+			height: 130vw;
+		}
+	}
+
+	&Img {
+		width: 100%;
+		height: 80vh;
+		object-fit: cover;
+
+		@media(max-width: 991px) {
+			height: 130vw;
+		}
+	}
+
+	&Content {
+		position: absolute;
+		bottom: 65px;
+		left: 20px;
+		color: #fff;
+		left: 0;
+		right: 0;
+		margin: auto;
+
+		@media(max-width: 991px) {
+			text-align: center;
+		}
+	}
+
+	&Descr {
+		margin-bottom: 32px;
+		font-size: 12px;
+		line-height: normal;
+	}
+
+	.h2 {
+		font-size: 16px;
+		font-weight: 400;
+		color: #fff;
+		margin-bottom: 24px;
+	}
+}

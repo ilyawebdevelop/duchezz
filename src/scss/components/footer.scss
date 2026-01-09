@@ -1,0 +1,139 @@
+// Footer
+.footer {
+	background-color: var(--main-color);
+	padding-top: 35px;
+	padding-bottom: 160px;
+	@media(max-width: 767px){
+		padding-bottom: 35px;
+	}
+
+	&W {
+		display: flex;
+		column-gap: 130px;
+		@media(max-width: 991px){
+			column-gap: 80px;
+		}
+		@media(max-width: 767px){
+			flex-direction: column;
+		}
+	}
+
+	&LangSwitch {
+		color: var(--brown-light);
+		display: flex;
+		align-items: center;
+		column-gap: 12px;
+		font-size: 12px;
+		&Text {
+			span {
+				text-transform: uppercase;
+				border-bottom: 1px solid var(--brown-light);
+				transition: border-color .2s linear, color .2s linear;
+			}
+		}
+
+		&:hover {
+			color: #fff;
+			.footerLangSwitchText {
+				span {
+					border-color: var(--color);
+				}
+			}
+		}
+	}
+
+	&Logo {
+		&:hover {
+			opacity: .85;
+		}
+		&W {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		img {
+			width: 385px;
+			@media(max-width: 1400px){
+				width: 300px;
+			}
+		}
+	}
+
+	&Nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&W {
+			display: flex;
+			column-gap: 50px;
+			@media(max-width: 991px){
+				column-gap: 30px;
+			}
+			@media(max-width: 767px){
+				flex-direction: column;
+				row-gap: 24px;
+			}
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			row-gap: 15px;
+			@media(max-width: 767px){
+				row-gap: 12px;
+			}
+
+			li {
+				a {
+					color: var(--brown-light);
+					font-size: 12px;
+					display: flex;
+					min-width: 80px;
+					width: fit-content;
+					transition: border-color .2s linear, color .2s linear;
+					&:hover {
+						color: #fff;
+						border-color: #fff;
+					}
+				}
+			}
+		}
+
+		&-border-b {
+			ul {
+				li {
+					a {
+						border-bottom: 1px solid var(--brown-light);
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.info-yur {
+		font-size: 12px;
+		color: var(--brown-light);
+		@media(max-width: 767px){
+			margin-top: 24px;
+			font-size: 10px;
+		}
+	}
+}
+.footerLogoW--lg {
+	@media(max-width: 767px){
+		display: none;
+	}
+}
+.footerLogoW--sm {
+	display: none;
+	@media(max-width: 767px){
+		display: flex;
+		margin-top: 45px;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 35px;
+	}
+}

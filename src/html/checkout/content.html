@@ -1,0 +1,142 @@
+<section class="sect">
+  <div class="container">
+
+    <div class="sectHead">
+      <h1 class="h1">
+        Checkout
+      </h1>
+    </div>
+
+    <div class="cartW">
+      <div class="cartContent">
+
+        <div class="checkout-row">
+          <div class="checkout-delivery">
+            <ul>
+              <li>
+                <input id="checkout-del-1" type="radio" name="delivery-checkout" checked>
+                <label for="checkout-del-1">
+                  CDEK
+                  to the door
+                </label>
+              </li>
+              <li>
+                <input id="checkout-del-2" type="radio" name="delivery-checkout">
+                <label for="checkout-del-2">
+                  CDEK
+                  to the point of delivery
+                </label>
+              </li>
+              <li>
+                <input id="checkout-del-3" type="radio" name="delivery-checkout">
+                <label for="checkout-del-3">
+                  International
+                  (DHL, DEMIX, EMS)
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="checkout-row">
+          <div class="checkout-grid">
+            <div class="chechout-input">
+              <input type="text" placeholder="Name*">
+            </div>
+            <div class="chechout-input">
+              <input type="text" placeholder="Second Name*">
+            </div>
+            <div class="chechout-input">
+              <input type="tel" placeholder="Phone Number*">
+            </div>
+            <div class="chechout-input">
+              <input type="email" placeholder="Email*">
+            </div>
+            <div class="chechout-select">
+              <label for="country">Country*</label>
+              <select name="country" id="country">
+                <option value="RUSSIA">RUSSIA</option>
+                <option value="USA">USA</option>
+              </select>
+            </div>
+            <div class="chechout-input">
+              <input type="text" placeholder="City*">
+            </div>
+            <div class="chechout-input">
+              <input type="text" placeholder="Street*">
+            </div>
+            <div class="chechout-input-grid-wrapper">
+              <div class="chechout-input">
+                <input type="text" placeholder="House Number*">
+              </div>
+              <div class="chechout-input">
+                <input type="text" placeholder="Postal Code*">
+              </div>
+            </div>
+            <div class="chechout-input-grid-wrapper">
+              <div class="chechout-input">
+                <input type="text" placeholder="Floor">
+              </div>
+              <div class="chechout-input">
+                <input type="text" placeholder="Apartment number">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="checkout-row">
+          <button class="button button--black delivery-point-btn">
+            SELECT POINT OF DELIVERY
+          </button>
+        </div>
+
+      </div>
+      <div class="cartOrder checkoutOrder">
+
+        <div class="cartOrderHead">
+          <h3 class="h3">TOTAL</h3>
+          <div class="cartOrderTotal">
+            29 980₽
+          </div>
+        </div>
+
+        <div class="cartItems">
+          <ul>
+            <li>
+              <span>2 items</span>
+              <span>29 980₽</span>
+            </li>
+            <li>
+              <span>Product name 1</span>
+              <span>1 psc</span>
+            </li>
+            <li>
+              <span>Product name 2</span>
+              <span>1 psc</span>
+            </li>
+            <li>
+              <span>Shipping CDEK to the door</span>
+              <span>720₽</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="fz-11 color-pink-50 mb-18">Delivery is paid separately upon receipt.</div>
+        <div class="agreement mb-18">
+          <input type="checkbox" id="checkbox-agree">
+          <label for="checkbox-agree">
+            <div class="rect"></div>
+            <div class="agreementText">
+              I accept the terms and conditions of the offer agreement and privacy policy.
+            </div>
+          </label>
+        </div>
+        <button class="button button--white w-100 text-uppercase cartBtn">
+          Continue checkout
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+</section>

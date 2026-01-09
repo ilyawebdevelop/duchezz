@@ -1,0 +1,86 @@
+// modal
+.modal {
+  display: none;
+
+  &-header {
+    padding: 45px;
+    padding-bottom: 25px;
+    border-bottom: none;
+  }
+
+  &-body {
+    padding: 45px;
+    padding-top: 0;
+  }
+
+  &-title {
+    font-size: 23px;
+  }
+
+  .btn-close {
+    background: none;
+    opacity: 1;
+  }
+}
+
+.fancybox__backdrop {
+  background-color: rgba($color: #E9D9C7, $alpha: .4);
+}
+
+#modalAdded {
+  background-color: var(--main-color);
+  color: #E9D9C7;
+  width: 650px;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  padding-top: 110px;
+  @media(max-width: 575px){
+    height: fit-content;
+    bottom: 0;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.productAddedHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.productAddedItemImg {
+
+  display: flex;
+
+  img {
+    width: 103px;
+    height: 135px;
+    object-fit: contain;
+    object-position: center;
+    background-color: var(--brown-light);
+  }
+}
+
+.productAddedItem {
+  margin-bottom: 25px;
+  display: flex;
+  column-gap: 13px;
+}
+
+.productAddedItemContent {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.productAddedItemName {
+  margin-bottom: 6px;
+}
+
+.productAddedItemPrice {
+  margin-bottom: 12px;
+}

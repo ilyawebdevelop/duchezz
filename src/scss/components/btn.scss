@@ -193,6 +193,10 @@
 
 .delivery-point-btn {
   min-width: 360px;
+  @media(max-width: 575px){
+    min-width: unset;
+    width: 100%;
+  }
 }
 
 .change-point {
@@ -212,6 +216,9 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  @media(max-width: 575px){
+    width: 100%;
+  }
 }
 
 .favouriteItemBtn {
@@ -223,4 +230,20 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
+  @media(max-width: 575px){
+    width: 100%;
+  }
+}
+.ordersItemBtn--lg {
+  @media(max-width: 575px){
+    display: none;
+  }
+}
+.ordersItemBtn--sm {
+  display: none;
+  @media(max-width: 575px){
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+  }
 }

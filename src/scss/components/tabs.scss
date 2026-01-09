@@ -5,6 +5,11 @@
     width: fit-content;
     border-radius: 15px;
     margin-bottom: 30px;
+    @media(max-width: 767px){
+      column-gap: 19px;
+      justify-content: space-between;
+      width: 100%;
+    }
 
     &-btn {
       font-size: 12px;

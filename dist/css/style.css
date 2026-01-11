@@ -2354,6 +2354,7 @@ a.color--gray-3:hover {
   min-height: 100%;
   position: relative;
   background-color: #C1B6AE;
+  padding-top: 58px;
 }
 
 .main {
@@ -3006,7 +3007,10 @@ h3,
 .header {
   background-color: var(--brown-light);
   position: relative;
-  z-index: 1;
+  z-index: 1112;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 @media (max-width: 991px) {
   .header {
@@ -3140,6 +3144,19 @@ h3,
 .headerAction ul li.headerCart {
   display: flex;
 }
+.headerAction ul li button:hover {
+  opacity: 0.85;
+}
+.headerAction ul li button svg {
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 991px) {
+  .headerAction ul li button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
 .headerAction ul li a:hover {
   opacity: 0.85;
 }
@@ -3222,6 +3239,7 @@ h3,
 @media (max-width: 991px) {
   .header-submenu ul li a {
     font-size: 16px;
+    width: fit-content;
   }
 }
 .header-submenu ul li a:hover {

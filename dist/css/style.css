@@ -2221,6 +2221,7 @@ section {
 }
 
 .searchW input {
+  border-radius: 0;
   width: 100%;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -2249,6 +2250,7 @@ section {
   padding-left: 25px;
   font-size: 16px;
   padding-left: 17px;
+  border-radius: 0;
 }
 .formInput::placeholder {
   color: #8F8F8C;

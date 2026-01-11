@@ -3845,6 +3845,7 @@ h3,
   padding-left: 11px;
   font-size: 12px;
   border-bottom: 1px solid #8F8F8C;
+  border-radius: 0;
 }
 @media (max-width: 991px) {
   .chechout-select select {

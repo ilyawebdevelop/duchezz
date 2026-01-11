@@ -3873,6 +3873,7 @@ h3,
   border-bottom: 1px solid #8F8F8C;
   padding-left: 14px;
   font-size: 12px;
+  border-radius: 0;
 }
 @media (max-width: 991px) {
   .chechout-input input {

@@ -240,6 +240,9 @@
     padding-left: 11px;
     font-size: 12px;
     border-bottom: 1px solid #8F8F8C;
+    @media(max-width: 991px){
+      font-size: 16px;
+    }
   }
 
   label {
@@ -264,6 +267,9 @@
     border-bottom: 1px solid #8F8F8C;
     padding-left: 14px;
     font-size: 12px;
+    @media(max-width: 991px){
+     font-size: 16px; 
+    }
   }
 
   &.grid-column-12 {

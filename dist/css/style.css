@@ -3846,6 +3846,11 @@ h3,
   font-size: 12px;
   border-bottom: 1px solid #8F8F8C;
 }
+@media (max-width: 991px) {
+  .chechout-select select {
+    font-size: 16px;
+  }
+}
 .chechout-select label {
   position: absolute;
   top: -3px;
@@ -3868,6 +3873,11 @@ h3,
   border-bottom: 1px solid #8F8F8C;
   padding-left: 14px;
   font-size: 12px;
+}
+@media (max-width: 991px) {
+  .chechout-input input {
+    font-size: 16px;
+  }
 }
 .chechout-input.grid-column-12 {
   grid-column: 12 span;

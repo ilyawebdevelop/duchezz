@@ -1,11 +1,11 @@
 .catalogDescr {
-	font-size: 12px;
+	font-size: 16px;
 	margin-top: 16px;
 }
 
 .catalogList {
 	display: grid;
-	grid-template-columns: repeat(10, 1fr);
+	grid-template-columns: repeat(12, 1fr);
 	column-gap: 10px;
 	row-gap: 16px;
 	@media(max-width: 1199px){
@@ -15,7 +15,7 @@
 
 .catalogCard {
 	position: relative;
-	grid-column: 2 span;
+	grid-column: 3 span;
 	@media(max-width: 1199px){
 		grid-column: 3 span;
 	}
@@ -27,7 +27,10 @@
 	}
 
 	.h3 {
-		margin-bottom: 5px;
+		margin-bottom: 10px;
+		@media(max-width: 991px){
+			font-size: 14px;
+		}
 
 		a {
 			&:hover {
@@ -51,6 +54,9 @@
 
 .catalogCardContent {
 	padding-left: 22px;
+	@media(max-width: 991px){
+		padding-left: 10px;
+	}
 }
 
 .catalogCardSlider {
@@ -60,5 +66,8 @@
 }
 
 .catalogCardPrice {
-	font-size: 10px;
+	font-size: 16px;
+	@media(max-width: 991px){
+		font-size: 14px;
+	}
 }

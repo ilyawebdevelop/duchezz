@@ -56,11 +56,12 @@
       justify-content: space-between;
       width: 100%;
       padding-left: 30px;
-      font-size: 12px;
+      font-size: 16px;
       padding-top: 9px;
 
       @media(max-width: 575px) {
         padding-left: 9px;
+        font-size: 14px;
       }
 
       &R {
@@ -126,14 +127,14 @@
       display: flex;
       justify-content: space-between;
       column-gap: 20px;
-      font-size: 12px;
+      font-size: 16px;
       margin-bottom: 19px;
     }
   }
 }
 
 .cartItems {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 10px;
 
   ul {
@@ -197,7 +198,7 @@
           padding-left: 20px;
           padding-right: 20px;
           text-align: center;
-          font-size: 12px;
+          font-size: 15px;
           transition: background-color .2s linear, color .2s linear, border-color .2s linear;
 
           &:hover {
@@ -238,7 +239,7 @@
     width: 100%;
     height: 46px;
     padding-left: 11px;
-    font-size: 12px;
+    font-size: 16px;
     border-bottom: 1px solid #8F8F8C;
     border-radius: 0;
     @media(max-width: 991px){
@@ -267,8 +268,11 @@
     width: 100%;
     border-bottom: 1px solid #8F8F8C;
     padding-left: 14px;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 0;
+    &::placeholder {
+      color: #8F8F8C;
+    }
     @media(max-width: 991px){
      font-size: 16px; 
     }
@@ -291,7 +295,7 @@
 }
 
 .point-del-text {
-  font-size: 12px;
+  font-size: 15px;
   max-width: 395px;
   margin-top: 12px;
 
@@ -330,7 +334,10 @@
 .success-row {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 16px;
+  @media(max-width: 991px){
+    font-size: 14px;
+  }
   span {
     &:nth-child(1){
       @media(max-width: 991px){

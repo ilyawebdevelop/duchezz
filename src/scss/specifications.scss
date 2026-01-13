@@ -72,7 +72,7 @@ section {
 		width: 100%;
 		padding-bottom: 12px;
 		border-bottom: 1px solid rgba($color: #000000, $alpha: .2);
-		font-size: 12px;
+		font-size: 14px;
 		background: url('@img/icons/search-brown-light.svg') no-repeat right center / 20px;
 		@media(max-width: 991px){
 			font-size: 16px;
@@ -130,17 +130,21 @@ section {
 }
 
 .fz-10 {
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .fz-11 {
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .fz-12 {
 	font-size: 12px;
 }
-
+.fz-16 {
+	@media(max-width: 991px){
+	font-size: 14px;	
+	}
+}
 .mb-8 {
 	margin-bottom: 8px;
 }
@@ -306,7 +310,7 @@ h2,
 
 h3,
 .h3 {
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 400;
 }
 

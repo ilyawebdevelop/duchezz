@@ -198,7 +198,7 @@ var mySwiperProductPage = new Swiper(productPageSlider, {
 // Инициализация слайдера productRelated
 document.querySelectorAll('.productRelated').forEach(n => {
 	const productRelated = new Swiper(n, {
-		slidesPerView: 7,
+		slidesPerView: 4,
 		spaceBetween: 3,
 		speed: 600,
 		navigation: {
@@ -212,17 +212,11 @@ document.querySelectorAll('.productRelated').forEach(n => {
 			576: {
 				slidesPerView: 3,
 			},
-			768: {
+			992: {
 				slidesPerView: 4,
 			},
-			992: {
-				slidesPerView: 5,
-			},
-			1200: {
-				slidesPerView: 6,
-			},
 			1400: {
-				slidesPerView: 7,
+				slidesPerView: 5,
 			},
 		},
 	});

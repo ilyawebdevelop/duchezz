@@ -23,7 +23,7 @@
 		display: flex;
 		align-items: center;
 		column-gap: 12px;
-		font-size: 12px;
+		font-size: 14px;
 		&Text {
 			span {
 				text-transform: uppercase;
@@ -67,7 +67,7 @@
 
 		&W {
 			display: flex;
-			column-gap: 50px;
+			column-gap: 80px;
 			@media(max-width: 991px){
 				column-gap: 30px;
 			}
@@ -88,7 +88,7 @@
 			li {
 				a {
 					color: var(--brown-light);
-					font-size: 12px;
+					font-size: 16px;
 					display: flex;
 					min-width: 80px;
 					width: fit-content;
@@ -106,7 +106,7 @@
 				li {
 					a {
 						border-bottom: 1px solid var(--brown-light);
-						font-size: 10px;
+						font-size: 14px;
 					}
 				}
 			}
@@ -114,11 +114,11 @@
 	}
 
 	.info-yur {
-		font-size: 12px;
+		font-size: 16px;
 		color: var(--brown-light);
 		@media(max-width: 767px){
 			margin-top: 24px;
-			font-size: 10px;
+			font-size: 14px;
 		}
 	}
 }

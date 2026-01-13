@@ -38,7 +38,7 @@
 
     img {
       width: 120px;
-      height: 144px;
+      height: 166px;
       object-fit: contain;
       object-position: center;
       @media(max-width: 575px){
@@ -53,7 +53,11 @@
     flex-direction: column;
   }
 }
-
+.favouriteItemTitle {
+  @media(max-width: 991px){
+    font-size: 14px;
+  }
+}
 .favouriteItemHead {
   display: flex;
   justify-content: space-between;

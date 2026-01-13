@@ -12,7 +12,10 @@
     }
 
     &-btn {
-      font-size: 12px;
+      font-size: 16px;
+      @media(max-width: 991px){
+        font-size: 14px;
+      }
       padding-bottom: 7px;
       color: #8F8F8C;
       border-bottom: 1px solid transparent;
